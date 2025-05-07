@@ -12,6 +12,7 @@ class Foo {
     
 int main(int argc, char** argv) {
     auto *p = new Foo(100, 200);
+    int a = 1;
     delete p;
     return 0;
 }
